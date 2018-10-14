@@ -1,4 +1,3 @@
-<!Doctype html>
 <?php
 
   $name='Ира';
@@ -8,7 +7,7 @@
   $about='Маркетолог'
 
 ?>
-
+<!Doctype html>
 <html lang="ru">
  <head>
    <meta charset="UTF-8">
@@ -18,17 +17,11 @@
 
     <h1> Страница пользователя <?=$name ?> </h1>
 
-       <p> Имя:
-           <br> <?=$name ?> </p>
-       <p> Возраст:
-           <br> <?=$age ?> </p>
-       <p> Почта:
-           <br>
-              <a href=blinovagmira@gmail.com> <?=$email ?> </a> </p>
-       <p> Город:
-           <br> <?=$city ?> </p>
-       <p> О себе:
-           <br> <?=$about ?> </p>
+       <p style="margin-bottom: -10px"> Имя: <?= $name ?> </p>
+       <p style="margin-bottom: -10px"> Возраст: <?= $age ?> </p>
+       <p style="margin-bottom: -10px"> Почта: <a href="mailto:blinovagmira@gmail.com"> <?= $email ?> </a> </p>
+       <p style="margin-bottom: -10px"> Город: <?= $city ?> </p>
+       <p> О себе: <?= $about ?> </p>
 
  </body>
 </html>
